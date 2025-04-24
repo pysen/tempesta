@@ -1,3 +1,6 @@
+#[cfg(test)]
+mod tests;
+
 use regex::Regex;
 use serde::{Deserialize, Serialize};
 use std::env;
